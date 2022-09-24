@@ -2,7 +2,7 @@
 
 Linear regression is maybe the most known and easy ml algorithm, and in this chapter I'll write an even easiest version, using only one feature.
 
-# 1. What is Linear Regression
+## 1. What is Linear Regression
 
 Linear regression is a statistic method of fitting a linear line for n samples such that the line is best fitted for all of them. 
 
@@ -22,3 +22,15 @@ We can draw the points on a graph. Here is a graph that shows ten sample points:
 The question that interests us is "if we get a new x value, what would be the expected y for it?". In other woeds, we want to **predict** the value of y from the given x and by using the historical knowledge of (x, y) samples. It's a very interesting question - as we said earlier, suppose (x, y) represents the temperature of the day (x) and amount of ice cream sold (y). The ability to predict how many ice cream would be sold according to a given temperature can help in my decisions as ice cream seller.
 
 So, how can we predict? We try to draw a straight line on the graph, that is the best for all the points. Ideally we could draw a line that goes through all the points, but that not very practical since the points are'nt really originated from a pure mathematic equation. So we try to draw a line that would be close enough.
+
+For example, let's look at the previous samples on the graph, with two lines:
+
+<img width="568" alt="002 - lr lines" src="https://user-images.githubusercontent.com/10141163/192104575-250ae062-56ee-4212-b85c-2eae18f7485b.png">
+
+You can see that the green line is above all the sample points, hence it does not reflect a good line for this set of samples. 
+
+The red line is better - although it does not run through all the points, you can see that all the points arranged pretty close to this line, hence it would be a better line.
+
+After we drew the regression line, we can predict an outcome of a new value - given the line equation, and a sample x, we will assign x in the line equation and get the y. The y is called the **the predicted value** for x, and the more the line would be better fitted to the points, the better the prediction would be.
+
+
