@@ -94,5 +94,8 @@ $\theta_1 = \theta_1 - \alpha \frac {\partial MSE}{\partial \theta_1}$
 
 where $\alpha$ is the learning rate.
 
+## About the Code
+
+The class LinearRegressor implements the One Variable Linear Regression algorithm with gradient descent. The class also privides a plotting method for visuallize the resuklts. You can change the initial values of theta, learning rate and number of iterations and see how these parameters effect the final results.
 
 
