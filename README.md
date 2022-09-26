@@ -5,5 +5,5 @@ I invite you to read and follow, maybe you'll find it inspiring.
 
 ## ML Algorithms
 
- - Linear Regression with one feature
+ - [Linear Regression with one feature](https://github.com/shaytavor/Machine-Learning-Algorithms/tree/main/Linear%20Regression%20One%20Feature)
 
